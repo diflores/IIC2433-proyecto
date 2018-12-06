@@ -1,0 +1,43 @@
+html {
+    background-color: #e6e6e6;
+}
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 200vh;
+}
+
+#main-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+#column1 {
+    flex-grow: 2;
+    max-width: 900px;
+}
+
+#column2 {
+    flex-grow: 1;
+    max-width: 600px;
+}
+
+.column {
+    padding: 0px 1rem 0px 1rem;
+
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 550px;					
+    height: 18px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+  }
